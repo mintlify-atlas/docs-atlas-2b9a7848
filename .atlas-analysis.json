@@ -1,0 +1,252 @@
+{
+  "projectType": "framework",
+  "projectName": "TanStack Router",
+  "projectDescription": "Type-safe router with built-in caching, data loading, and URL state management for React, Solid, and Vue applications.",
+  "theme": "mint",
+  "primaryColor": "#00c7b7",
+  "lightColor": "#84e8de",
+  "darkColor": "#00a090",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Router",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "router/introduction",
+              "router/quick-start",
+              "router/installation",
+              "router/devtools"
+            ]
+          },
+          {
+            "group": "Routing Concepts",
+            "pages": [
+              "router/routing-concepts",
+              "router/route-trees",
+              "router/route-matching",
+              "router/file-based-routing",
+              "router/code-based-routing",
+              "router/virtual-file-routes"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "router/navigation",
+              "router/path-params",
+              "router/search-params",
+              "router/data-loading",
+              "router/type-safety",
+              "router/outlets",
+              "router/link-options"
+            ]
+          },
+          {
+            "group": "Advanced Features",
+            "pages": [
+              "router/code-splitting",
+              "router/preloading",
+              "router/authenticated-routes",
+              "router/data-mutations",
+              "router/external-data-loading",
+              "router/deferred-data-loading",
+              "router/not-found-errors",
+              "router/navigation-blocking",
+              "router/route-masking",
+              "router/scroll-restoration",
+              "router/document-head-management"
+            ]
+          },
+          {
+            "group": "Customization",
+            "pages": [
+              "router/custom-link",
+              "router/custom-search-param-serialization",
+              "router/router-context",
+              "router/history-types"
+            ]
+          },
+          {
+            "group": "API Reference",
+            "pages": [
+              "router/api/router",
+              "router/api/route",
+              "router/api/link",
+              "router/api/hooks"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "router/integrations/tanstack-query",
+              "router/integrations/trpc"
+            ]
+          },
+          {
+            "group": "Developer Tools",
+            "pages": [
+              "router/eslint-plugin",
+              "router/router-cli"
+            ]
+          },
+          {
+            "group": "Resources",
+            "pages": [
+              "router/comparison",
+              "router/faq",
+              "router/migration-guide"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Start (Full-Stack)",
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": [
+              "start/introduction",
+              "start/quick-start",
+              "start/installation"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "start/server-functions",
+              "start/server-side-rendering",
+              "start/streaming",
+              "start/deployment",
+              "start/configuration"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "start/data-fetching",
+              "start/middleware",
+              "start/api-routes",
+              "start/static-generation",
+              "start/environment-variables"
+            ]
+          },
+          {
+            "group": "Deployment Guides",
+            "pages": [
+              "start/deployment/vercel",
+              "start/deployment/netlify",
+              "start/deployment/cloudflare",
+              "start/deployment/aws",
+              "start/deployment/docker"
+            ]
+          },
+          {
+            "group": "API Reference",
+            "pages": [
+              "start/api/server-functions",
+              "start/api/configuration"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "How-To Guides",
+        "groups": [
+          {
+            "group": "Setup & Configuration",
+            "pages": [
+              "how-to/install",
+              "how-to/setup-authentication",
+              "how-to/setup-ssr",
+              "how-to/setup-testing"
+            ]
+          },
+          {
+            "group": "Search Parameters",
+            "pages": [
+              "how-to/setup-basic-search-params",
+              "how-to/validate-search-params",
+              "how-to/navigate-with-search-params",
+              "how-to/share-search-params-across-routes",
+              "how-to/arrays-objects-dates-search-params"
+            ]
+          },
+          {
+            "group": "Authentication & Authorization",
+            "pages": [
+              "how-to/setup-auth-providers",
+              "how-to/setup-rbac"
+            ]
+          },
+          {
+            "group": "UI Integration",
+            "pages": [
+              "how-to/integrate-shadcn-ui",
+              "how-to/integrate-material-ui",
+              "how-to/integrate-chakra-ui",
+              "how-to/integrate-framer-motion"
+            ]
+          },
+          {
+            "group": "Testing & Debugging",
+            "pages": [
+              "how-to/test-file-based-routing",
+              "how-to/debug-router-issues"
+            ]
+          },
+          {
+            "group": "Migration",
+            "pages": [
+              "how-to/migrate-from-react-router"
+            ]
+          },
+          {
+            "group": "Production",
+            "pages": [
+              "how-to/deploy-to-production",
+              "how-to/use-environment-variables"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "End-to-end type safety for routes, params, and loaders",
+    "File-based and code-based routing options",
+    "Built-in data loading, caching, and prefetching",
+    "Schema-driven search params with validation",
+    "Nested layouts and route transitions",
+    "Full-stack framework with SSR and server functions (TanStack Start)",
+    "Multiple framework support (React, Solid, Vue)",
+    "Developer tools including devtools and ESLint plugin"
+  ],
+  "publicApiSurface": [
+    "createRouter",
+    "createRoute",
+    "createRootRoute",
+    "createFileRoute",
+    "Router",
+    "RouterProvider",
+    "Link",
+    "Navigate",
+    "Outlet",
+    "useNavigate",
+    "useRouter",
+    "useParams",
+    "useSearch",
+    "useLoaderData",
+    "useRouterState",
+    "useMatch",
+    "useMatches",
+    "defer",
+    "redirect",
+    "notFound",
+    "createServerFn (Start)",
+    "createAPIRoute (Start)",
+    "TanStackRouterVite (plugin)",
+    "@tanstack/router-cli"
+  ]
+}
